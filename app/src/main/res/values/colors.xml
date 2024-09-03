@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_color">#fff27a1a</color>
+    <color name="bottom_nav_selected_icon_color">#fff27a1a</color>
+    <color name="bottom_nav_icon_color">#B0ADAB</color>
+    <color name="delivery_adress_button_color">#fffdefe4</color>
+    <color name="toolbar_search_home_title_hint_color">#ffdddddd</color>
+    <color name="account_page_login_icon_color">#fff27a1a</color>
+    <color name="status_bar_color">#ff333333</color>
+    <color name="login_button_color">#fff27a1a</color>
+</resources>

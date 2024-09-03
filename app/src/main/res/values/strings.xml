@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TrendyolGoUISample</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_trendyol_go_text">Trendyol Go\'da Ara.</string>
+    <string name="select_delivery_adress_text">Teslimat Adresi Seç</string>
+    <string name="notification_text">Bildirimler</string>
+    <string name="main_page_text">Ana Sayfa</string>
+    <string name="my_orders_text">Siparişlerim</string>
+    <string name="my_account_text">Hesabım</string>
+    <string name="my_orders_sign_up_text">Siparişlerinizi görüntüleyebilmek için lütfen giriş yapın.</string>
+    <string name="opportunities_text">Öne Çıkan Fırsatlar</string>
+    <string name="cuisine_text">Mutfaklar</string>
+    <string name="see_all_text">Tümünü Gör</string>
+    <string name="login_text">Giriş Yap</string>
+    <string name="button_sign_up">Giriş Yap</string>
+    <string name="button_more">Daha Fazla</string>
+    <string name="my_account_Text">Hesabım</string>
+</resources>

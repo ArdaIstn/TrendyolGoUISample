@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.MyAccountFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbMyAccount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_account_Text"
+        android:textSize="@dimen/toolbar_title_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tbMyAccount"
+        app:layout_constraintEnd_toEndOf="@+id/tbMyAccount"
+        app:layout_constraintStart_toStartOf="@+id/tbMyAccount"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btSignUp"
+        style="@style/Widget.AppCompat.Button"
+        android:drawableStart="@drawable/login"
+        android:drawablePadding="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_button_background"
+        android:backgroundTint="@null"
+        android:gravity="start|center"
+        android:text="@string/button_sign_up"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbMyAccount" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btMore"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_button_background"
+        android:backgroundTint="@null"
+        android:gravity="start|center"
+        android:drawableStart="@drawable/more"
+        android:drawablePadding="10dp"
+        android:paddingStart="4dp"
+        android:text="@string/button_more"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSignUp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
